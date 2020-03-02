@@ -1,8 +1,8 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "7236915d-ebd5-4b8f-ba68-8586027df53f": {
-        "id": "7236915d-ebd5-4b8f-ba68-8586027df53f",
+      "6b3d2383-1bcf-4648-9476-054d7d66b7f1": {
+        "id": "6b3d2383-1bcf-4648-9476-054d7d66b7f1",
         "parent": null,
         "name": "test-kumari.js",
         "type": "JS_LAMBDA",
@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "test-kumari.js",
         "cursor": {
-          "lineNumber": 3,
-          "column": 54
+          "lineNumber": 2,
+          "column": 5
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -23,10 +23,10 @@
         },
         "triggers": [],
         "testCases": {
-          "1dfc144f-7cb5-436a-af3b-276b52010217": {
-            "id": "1dfc144f-7cb5-436a-af3b-276b52010217",
+          "4fcd8d29-eb8f-4ec5-af98-41d0267ccdb9": {
+            "id": "4fcd8d29-eb8f-4ec5-af98-41d0267ccdb9",
             "name": "Test event",
-            "functionId": "7236915d-ebd5-4b8f-ba68-8586027df53f",
+            "functionId": "6b3d2383-1bcf-4648-9476-054d7d66b7f1",
             "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
             "eventTemplate": "hello-world"
           }
@@ -34,9 +34,9 @@
       }
     },
     "openFiles": [
-      "7236915d-ebd5-4b8f-ba68-8586027df53f"
+      "6b3d2383-1bcf-4648-9476-054d7d66b7f1"
     ],
-    "currentFileId": "7236915d-ebd5-4b8f-ba68-8586027df53f",
+    "currentFileId": "6b3d2383-1bcf-4648-9476-054d7d66b7f1",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -64,7 +64,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1583141596533
+    "lastSave": 1583141754379
   },
   "VCS_STATE": {
     "provider": "GitHub",

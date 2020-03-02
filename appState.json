@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7236915d-ebd5-4b8f-ba68-8586027df53f": {
+        "id": "7236915d-ebd5-4b8f-ba68-8586027df53f",
+        "parent": null,
+        "name": "test-kumari.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test-kumari.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 54
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "1dfc144f-7cb5-436a-af3b-276b52010217": {
+            "id": "1dfc144f-7cb5-436a-af3b-276b52010217",
+            "name": "Test event",
+            "functionId": "7236915d-ebd5-4b8f-ba68-8586027df53f",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "7236915d-ebd5-4b8f-ba68-8586027df53f"
+    ],
+    "currentFileId": "7236915d-ebd5-4b8f-ba68-8586027df53f",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test-kumari",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1583141596533
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test-kumari",
+      "url": "https://github.com/Indunil1992/test-kumari"
+    }
+  }
+}
